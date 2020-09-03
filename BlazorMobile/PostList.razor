@@ -1,0 +1,10 @@
+﻿<StackLayout Margin="new Thickness(20)" Orientation="StackOrientation.Horizontal">
+    
+    <Label Text="@PostToDisplay.Title"
+           HorizontalOptions="LayoutOptions.FillAndExpand" />
+</StackLayout>
+
+@code
+{
+    [Parameter] public Post PostToDisplay { get; set; }
+}
